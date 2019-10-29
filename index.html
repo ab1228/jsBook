@@ -12,9 +12,30 @@
 
 <body>
 
-    <div class="contianer">
+    <div class="container mt-4">
         <h1 class="display-4 text-center">
-            <i class="fas fa-book-open"></i>My <span>Book</span>List</h1>
+            <i class="fas fa-book-open text-primary"></i>My <span class="text-primary">Book</span>List</h1>
+
+        <form id="book-form">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" class="form-control">
+            </div>
+
+
+            <div class="form-group">
+                <label for="author">Author</label>
+                <input type="text" id="author" class="form-control">
+            </div>
+
+
+            <div class="form-group">
+                <label for="title">ISB#</label>
+                <input type="text" id="author" class="form-control">
+            </div>
+            <input type="submit" value="add book" class="btn btn-primary btn-block">
+
+        </form>
 
 
 
